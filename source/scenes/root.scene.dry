@@ -333,7 +333,7 @@ Q.president = "You";
 Q.prez_party = "I";
 Q.deputy = "Vacant";
 Q.deputy_party = 'N/A';
-Q.prez_term = 0
+Q.prez_term = 0;
 // To be removed
 Q.spd_in_government = 0;
 Q.z_in_government = 1;
