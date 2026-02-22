@@ -101,11 +101,11 @@ Q.moderate_plan_adopted = 0;
 // organizations
 
 // party relations
-Q.swp_relation: 50;
-Q.forward_relation: 50;
-Q.nademo_relation: 50;
-Q.ga_relation: 50;
-Q.pop_relation: 50;
+Q.swp_relation = 50;
+Q.forward_relation = 50;
+Q.nademo_relation = 50;
+Q.ga_relation = 50;
+Q.pop_relation = 50;
 
 // party relations (to be removed)
 Q.z_relation = 50;
