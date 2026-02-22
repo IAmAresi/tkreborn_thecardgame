@@ -100,14 +100,12 @@ Q.moderate_plan_adopted = 0;
 
 // organizations
 
-// inter-party relations
-Q.z_relation = 50;
-Q.kpd_relation = 25;
-Q.ddp_relation = 60;
-Q.dvp_relation = 35;
-// DNVP and NSDAP are invariably hostile
-Q.DNVP_relation = 10;
-Q.NSDAP_relation = 0;
+// party relations
+Q.swp_relation: 50;
+Q.forward_relation: 50;
+Q.nademo_relation: 50;
+Q.ga_relation: 50;
+Q.pop_relation: 50;
 
 Q.kpd_leader = "Thälmann";
 // alternative is the Conciliators as party leader
@@ -331,10 +329,12 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
-// starting chancellor: Wilhelm Marx
-Q.deputy_president = "Marx";
-Q.chancellor_party = 'Z';
+Q.president = "You";
+// No deputy president at start
+Q.deputyprez = "Vacant";
+Q.deputyprez_party = 'N/A';
+Q.prez_term = 0
+// To be removed
 Q.spd_in_government = 0;
 Q.z_in_government = 1;
 Q.ddp_in_government = 0;
