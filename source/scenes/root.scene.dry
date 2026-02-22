@@ -296,8 +296,25 @@ Q.catholics_dnvp = 5;
 Q.catholics_nsdap = 0;
 Q.catholics_other = 12;
 
+// Current Assembly of People's Deputies composition
+// % of Assembly in Jan 1991
+// Carried over from Crimzonist Trilkassia, hence the SWP dominance
+Q.swp_apd = 77;
+Q.forward_apd = 0;
+Q.nademo_apd = 0;
+Q.ga_apd = 0;
+Q.pop_apd = 0;
+Q.other_apd = 23;
 
-// Current Reichstag composition
+// diff from prev
+Q.old_swp_apd = 77;
+Q.old_forward_apd = 0;
+Q.old_nademo_apd = 0;
+Q.old_ga_apd = 0;
+Q.old_pop_apd = 0;
+Q.old_other_apd = 23;
+
+// Current Reichstag composition (to be removed)
 // % of Reichstag in Jan 1928
 // source: wikipedia
 // note: the Z figures also include the BVP (Bavarian people's party)
@@ -339,7 +356,7 @@ Q.economic_records = [];
 
 // State of the government
 Q.president = "You";
-Q.prez_party = "I";
+Q.prez_party = "Ind.";
 Q.deputy = "Vacant";
 Q.deputy_party = 'N/A';
 Q.prez_term = 0;
