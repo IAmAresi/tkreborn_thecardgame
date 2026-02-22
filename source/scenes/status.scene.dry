@@ -30,9 +30,9 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-[? if prez_term == 0 : Provisional President: [+ president +]% ?][? if prez_term >= 0 : President: [+ president +]% ?]
+[? if prez_term == 0 : Provisional President:?][? if prez_term >= 0 : President:?] [+ president +] ([+ prez_party +])
 
-Deputy President: [+ deputyprez +] ([+ deputyprez_party +])
+[? if system_presidential == 1 : Deputy President: [+ deputy +] ([+ deputy_party +]) ?][? if system_semipresidential == 1 : Deputy President: [+ deputy +] ([+ deputy_party +]) ?]
 
 Assembly composition:
 

@@ -330,9 +330,9 @@ Q.economic_records = [];
 
 // State of the government
 Q.president = "You";
-// No deputy president at start
-Q.deputyprez = "Vacant";
-Q.deputyprez_party = 'N/A';
+Q.prez_party = "I";
+Q.deputy = "Vacant";
+Q.deputy_party = 'N/A';
 Q.prez_term = 0
 // To be removed
 Q.spd_in_government = 0;
