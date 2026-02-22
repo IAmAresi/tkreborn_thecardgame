@@ -1,0 +1,7 @@
+
+(..5) hostile
+(5..19.9) enraged
+(19.9..34.9) agitated
+(34.9..49.9) irritated
+(49.9..64.9) calm
+(64.9..) conciliatory

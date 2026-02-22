@@ -48,7 +48,7 @@ Assembly composition:
 # Game start: 0
 <span class="tooltip-text" title="Protect Our People" style="color: #E8D117;">POP</span>: [+ pop_apd +]%
 # Game start: 23
-Ind./Others: [+ other_r +]%
+Ind./Others: [+ other_apd +]%
 
 Budget: [+ budget +]
 
@@ -80,17 +80,21 @@ Economic growth: [+ economic_growth_2 +]%
 
 <span class="tooltip-text" title="Protect Our People" style="color: #E8D117;">POP</span>: [+ pop_relation : relationships +]
 
-= Factional Influence
+= Oligarchic Influence
 
-{!<span class="tooltip-text" title="The Left is interested in radical, transformative policies and cooperation with the KPD.">Left</span>!} strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +]
+{!<span class="tooltip-text" title="Leftover apparatchiks and pen-pushers from the Crimzonist regime who still remain highly influential voices in Trilkassian politics.">Old Guard</span>!} (influence: [+ politicos_strength : strength +], dissent: [+ politicos_dissent : dissent +])
 
-{!<span class="tooltip-text" title="The Center is a faction of Center Marxists, between reform and revolution.">Center</span>!} strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
+{!<span class="tooltip-text" title="Our very own captains of industry—or rather, the lucky few who've bought out all the former major state-owned enterprises.">Industrial Titans</span>!} (influence: [+ tycoons_strength : strength +], dissent: [+ tycoons_dissent : dissent +])
 
-{!<span class="tooltip-text" title="Labor's goal is economic reform and benefits for organized workers.">Labor</span>!} strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
+{!<span class="tooltip-text" title="The men and women who once controlled the vast security, defense, and intelligence apparatus of the old Union—and in many ways, still do.">The Guns</span>!} (influence: [+ security_strength : strength +], dissent: [+ security_dissent : dissent +])
 
-{!<span class="tooltip-text" title="Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy.">Reformist</span>!} strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
+= Inter-Ethnic Relations
 
-[? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
+{!<span class="tooltip-text" title="The dominant ethnic group comprising the vast majority of Trilkassian citizens.">Trilkassians</span>!}: [+ trilkassians_mood : moods +]
+
+{!<span class="tooltip-text" title="Ethnic minority groups that were historically afforded similar rights to ethnic Trilkassians.">Tolerated minorities</span>!}: [+ tminorities_mood : moods +]
+
+{!<span class="tooltip-text" title="Ethnic minority groups that were historically marginalized, even under the ostensibly egalitarian Crimzon Workers' Union.">Repressed minorities</span>!}: [+ rminorities_mood : moods +]
 
 
 @paramilitaries

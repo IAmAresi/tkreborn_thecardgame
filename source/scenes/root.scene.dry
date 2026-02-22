@@ -98,7 +98,7 @@ Q.nationalization_adopted = 0;
 Q.moderate_plan_support = 0;
 Q.moderate_plan_adopted = 0;
 
-// organizations
+// organizations & factions
 
 // party relations
 Q.swp_relation = 50;
@@ -106,6 +106,11 @@ Q.forward_relation = 50;
 Q.nademo_relation = 50;
 Q.ga_relation = 50;
 Q.pop_relation = 50;
+
+// ethnic moods
+Q.trilkassians_mood = 55
+Q.tminorities_mood = 50
+Q.rminorities_mood = 40
 
 // party relations (to be removed)
 Q.z_relation = 50;
@@ -530,9 +535,9 @@ Q.n_elections = 0;
 Q.no_majority_elections = 0;
 // elections are not on a timer, but rather there is an indicator for whether you're in an electoral cycle.
 Q.in_election = 1;
-Q.next_election_year = 1928;
-Q.next_election_month = 5;
-Q.next_election_time = 5;
+Q.next_election_year = 1993;
+Q.next_election_month = 11;
+Q.next_election_time = 34;
 // government affairs timers
 Q.agricultural_policy_timer = 0;
 Q.domestic_enemies_timer = 0;
