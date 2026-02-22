@@ -1,6 +1,6 @@
 body {
-  --bg-color: #000000;
-  --border-color: #000;
+  --bg-color: #010080;
+  --border-color: #010080;
   --content-bg-color: #000000;
   --text-color: #FFFFFF;
   --link-color: #FFFF00;
@@ -8,11 +8,11 @@ body {
   --unavailable-bg-color: rgba(0, 0, 0, 0.1);
   --unavailable-color: #999;
   --tab-bg-color: #dedede;
-  --tab-color: #ddd;
-  --tab-hover-color: #ececec;
-  --card-border-color: #ccc; 
-  --card-bg-color: #ddd; 
-  font-family: "Minion Pro", Georgia, serif;
+  --tab-color: #808080;
+  --tab-hover-color: #C0C0C0;
+  --card-border-color: #FFFFFF; 
+  --card-bg-color: #FFFFFF; 
+  font-family: "Times New Roman", Times, serif;
   background-color: var(--bg-color);
   padding: 0;
   line-height: 155%;
